@@ -1,12 +1,12 @@
 {
     "name": "sTab",
     "description": "Kill and Revive Chrome Tab Process",
-    "version": "1.0.0.0",
+    "version": "1.0.1.0",
     "background": {
         "scripts": ["background.js"]
     },
     "permissions": [
-        "tabs", "experimental"
+        "tabs", "processes"
     ],
     "browser_action": {
         "default_icon": {

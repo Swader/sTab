@@ -1,5 +1,5 @@
 var tab_id;
-var processes = (chrome.processes !== undefined) ? chrome.processes : chrome.experimental.processes;
+var processes = chrome.processes;
 
 chrome.browserAction.onClicked.addListener(function (tab) {
     tab_id = tab.id;
